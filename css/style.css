@@ -1,0 +1,58 @@
+*{
+    margin: 20;
+    padding: 20;
+   
+    
+}
+#box{
+    border: 10px #000000;
+}
+body{
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+input::placeholder{
+    font-size: 20px;
+    background-color: rgb(160, 212, 29);
+    padding-top: 30px;
+    padding: 30px;
+
+}
+input{
+    width: 98%;
+    height: 30px;
+}
+
+   h2{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 26px;
+    color: #390c73;
+    font-family: sans-serif;
+  }
+  .btn{
+      
+      font-size: x-large;
+      margin-left: 50px;
+      margin: 30px;
+  }
+  #btn1{
+    margin-right: 50px;
+  }
+  #btn2{
+   margin-right: 1px
+   
+}
+div{
+    margin: 100px;
+    border: solid black 3px;
+    background-color: rgb(96, 207, 126);
+    
+}
+.btn:hover{
+    border: solid rgb(8, 88, 169) 4px;
+    background-color: aqua;
+}
